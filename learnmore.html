@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ed2d</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="theme">
+            <input type="checkbox" id="checkbox" class="checkbox">
+            <label class="label" for="checkbox">
+                <div class="ball"></div>
+            </label>
+        </div>
+        <div id="logo">
+            <img src="./images/logo.png" alt="loading..." class="logo" />
+        </div>
+        <ul class="nav-list">
+            <li class="articles active"><a href="#">Home</a></li>
+            <li class="articles"><a href="#">About</a></li>
+            <li class="articles"><a href="#">Services</a></li>
+            <li class="articles"><a href="#">Events</a></li>
+            <li class="articles"><a href="#">Blog</a></li>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <div class="fas fa-bars" style="font-size: 36px;"></div>
+            </label>
+            <li><a class="ctn" href="#">Sign In/ Sign Up</a></li>
+        </ul>
+    </nav>
+    <section id="learn">
+        <h2>Wow, we've had a busy year... but always make time for fun!  </h2>
+        <p id="learnpara">Our clients include not-for-profit organizations, corporate clients,  regulating bodies and member associations. Each of these organizations  has a unique set of business goals and challenges, and has chosen Spark  because we understand the business of running events.</p>
+        <p id="orangepara">Events connect people. Events breed innovation. Events build communities. Events spark change.</p>
+        <img id="confer" src="./images/conf.jpg" alt="loading...">
+        <h1>PMINAC Conference</h1>
+        <p id="conferpara">We have worked with the Project Management Institute Northern Alberta Chapter for over a decade and it’s safe to say we feel like a part of the family. From the familiar faces in the crowd of attendees, to the trust built with sponsors and speakers, the committee and board can count on us to represent their Chapter and execute a seamless conference!</p>
+        <img src="./images/limage1.jpeg" alt="loading..." class="learnimgleft">
+        <img src="./images/limage2.jpg" alt="loading..." class="learnimgright">
+        <img src="./images/limage3.jpg" alt="loading..." class="learnimgleft">
+        <img src="./images/limage4.jpg" alt="loading..." class="learnimgright">
+        <img src="./images/limage5.jpg" alt="loading..." class="learnimgleft">
+        <img src="./images/limage6.jpg" alt="loading..." class="learnimgright">
+    </section>
+    <br><br><br>
+    <hr>
+    <section id="abtfoot">
+        <div class="copyright">
+            <h4>Copyright ED2D. All rights reserved.</h4>
+            <h4>Terms & Use</h4>
+            <h4>Privacy Policy</h4>
+        </div>
+        <i id="scrolltp" class="fa fa-arrow-up"></i>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        offset: 200,
+        delay: 100,
+        duration: 1000,
+      });
+    </script>
+    <!-- App.js  -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
